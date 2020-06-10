@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #dddddd;
+  background-color: #CCCCCC;
   height: 100%;
 }
 
@@ -108,28 +108,62 @@ body {
   height: 100%;
 }
 
-.wrapper {
-  /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
-  display: flex;
-  justify-content: space-around;
-  background-color: #dddddd;
+header,
+footer {
+  background-color: #CCCCCC;
+  height: 80px;
+  width: 100%;
+}
+
+main {
+  background-color: #CCCCCC;
+  height: 250px;
+  width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Alex Brush', cursive;
+    font-size: 40px;
+}
+
+
+footer,
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container {
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content:space-between;
+    background-color: #CCCCCC;
 }
 
 .div-1, .div-2, .div-3 {
-  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #cdafcc;
+  background-color: #cfd8c5;
   height: 300px;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
-  border-left: 2px solid black;
-  border-right: 2px solid black;
+  border: 2px solid black;
   text-align: center;
+  color: #4f433f;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
 }
 
 /* ==========================================================================
