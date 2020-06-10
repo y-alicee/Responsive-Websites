@@ -185,3 +185,65 @@ footer span {
 	color: #77a466;
 	font-size: 0.875em;
 }
+ 
+@media all and (min-width:1200px) {
+	/* Desktop styles here */
+	header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-flow: row wrap;
+		width: 100%;
+		padding: 38px;
+	}
+
+	header nav {
+		padding: 0;
+    }
+
+	header nav ul {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	header nav ul li {
+		padding-right: 20px;
+		display: inline;
+		padding-top: 70px;
+	}
+	
+	.main-image {
+	height: auto;
+	margin-top: 0;
+	}  
+	
+	.section-one,
+	.section-two,
+	.section-three {
+		width: 33%;
+		border-top: none;
+	}
+
+	.section-two {
+		border-left: 1px solid #eee;
+		border-right: 1px solid #eee;
+	}
+
+	.reviews {
+	margin-left: 0;
+	}
+	
+	.address {
+	margin-left: 0;
+	}
+	
+	.section-two h4,
+	.section-three h4 {
+		padding: 10px 30px;
+	}
+	
+	.section-three {
+		margin-top: -65px;
+		padding: 0;
+	}
+}
